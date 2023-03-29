@@ -1381,24 +1381,3 @@ end
 -------------------------------------------------------------------
 buttonUIToggle("http://www.roblox.com/asset/?id=12932894615")
 local win = library:AddWindow("                                                                       NEMON HUB (NEW!!!) | Blox Fruits Update 19")
-
-local Tab = win:AddTab("Main") -- สร้าง Tab
-local Tab2 = win:AddTab("Player")
-
-local SectionLeft = Tab:AddPage() -- สร้าง Scetion ใน Tab
-local SectionRight = Tab:AddPage()
-SectionLeft:Label("- Section 1 -") -- ข้อความ
-SectionRight:Label("- Section 2 -")
-
-SectionLeft:Toggle("Toggle Name",false,function(value) -- Toggle เปิดปิด
-    print("Toggle set "..value)
-end)
-SectionLeft:Slider("Slider Name",1,1000,1,function(value) -- Slider เลื่อน
-    print("Slider set "..value)
-end)
-SectionLeft:Button("Button Name",function() -- ปุ่ม
-    print("Click")
-end)
-SectionRight:Dropdown("Dropdown Name",{"a","b","c"},function(value) -- Menu เลือก
-    print("Dropdown set "..value)
-end)
