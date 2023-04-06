@@ -114,7 +114,7 @@ function library:AddWindow(text,keybind)
     NameHub.Size = UDim2.new(0, 61, 0, 27)
     NameHub.Font = Enum.Font.GothamSemibold
     NameHub.Text = string.upper(text)
-    NameHub.TextColor3 = Color3.fromRGB(255, 0, 0)
+    NameHub.TextColor3 = Color3.fromRGB(0, 0, 225)
     NameHub.TextSize = 17.000
 
     local NameHub2 = Instance.new("TextLabel")
@@ -126,12 +126,12 @@ function library:AddWindow(text,keybind)
     NameHub2.Size = UDim2.new(0, 61, 0, 27)
     NameHub2.Font = Enum.Font.GothamSemibold
     NameHub2.Text = ""
-    NameHub2.TextColor3 = Color3.fromRGB(255, 0, 0)
+    NameHub2.TextColor3 = Color3.fromRGB(0, 0, 225)
     NameHub2.TextSize = 17.000
     NameHub2.TextXAlignment = Enum.TextXAlignment.Left
 
     local UiToggle_UiStroke1 = Instance.new("UIStroke")
-	UiToggle_UiStroke1.Color = Color3.fromRGB(255, 0, 0)
+	UiToggle_UiStroke1.Color = Color3.fromRGB(0, 0, 225)
 	UiToggle_UiStroke1.Thickness = 2
 	UiToggle_UiStroke1.Name = "UiToggle_UiStroke1"
 	UiToggle_UiStroke1.Parent = Main
@@ -155,7 +155,7 @@ function library:AddWindow(text,keybind)
     NameHub.Size = UDim2.new(0, 61, 0, 27)
     NameHub.Font = Enum.Font.GothamSemibold
     NameHub.Text = string.upper(text)
-    NameHub.TextColor3 = Color3.fromRGB(255, 0, 0)
+    NameHub.TextColor3 = Color3.fromRGB(0, 0, 225)
     NameHub.TextSize = 17.000
 
     local NameHub2 = Instance.new("TextLabel")
@@ -167,7 +167,7 @@ function library:AddWindow(text,keybind)
     NameHub2.Size = UDim2.new(0, 61, 0, 27)
     NameHub2.Font = Enum.Font.GothamSemibold
     NameHub2.Text = ""
-    NameHub2.TextColor3 = Color3.fromRGB(255, 0, 0)
+    NameHub2.TextColor3 = Color3.fromRGB(0, 0, 225)
     NameHub2.TextSize = 17.000
     NameHub2.TextXAlignment = Enum.TextXAlignment.Left
     
@@ -379,7 +379,7 @@ function library:AddWindow(text,keybind)
                 
                 Sep1.Name = "Sep1"
                 Sep1.Parent = Seperator
-                Sep1.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+                Sep1.BackgroundColor3 = Color3.fromRGB(0, 0, 225)
                 Sep1.BorderSizePixel = 0
                 Sep1.Position = UDim2.new(0, 0, 0, 10)
                 Sep1.Size = UDim2.new(0, 40, 0, 1)
@@ -397,7 +397,7 @@ function library:AddWindow(text,keybind)
                 
                 Sep3.Name = "Sep3"
                 Sep3.Parent = Seperator
-                Sep3.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+                Sep3.BackgroundColor3 = Color3.fromRGB(0, 0, 225)
                 Sep3.BorderSizePixel = 0
                 Sep3.Position = UDim2.new(0, 220, 0, 10)
                 Sep3.Size = UDim2.new(0, 40, 0, 1)
@@ -421,7 +421,7 @@ function library:AddWindow(text,keybind)
                 
                 Line.Name = "Line"
                 Line.Parent = Linee
-                Line.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+                Line.BackgroundColor3 = Color3.fromRGB(0, 0, 225)
                 Line.BorderSizePixel = 0
                 Line.Position = UDim2.new(0, 0, 0, 10)
                 Line.Size = UDim2.new(0, 260, 0, 1)
@@ -436,7 +436,7 @@ function library:AddWindow(text,keybind)
                 
                 Button.Name = "Button"
                 Button.Parent = ScrollPage
-                Button.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+                Button.BackgroundColor3 = Color3.fromRGB(0, 0, 225)
                 Button.Size = UDim2.new(0, 260, 0, 38)
                 Button.BackgroundTransparency = 0.5
                 
@@ -522,7 +522,7 @@ function library:AddWindow(text,keybind)
 
                 Dropdown.Name = "Dropdown"
                 Dropdown.Parent = ScrollPage
-                Dropdown.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+                Dropdown.BackgroundColor3 = Color3.fromRGB(0, 0, 225)
                 Dropdown.BackgroundTransparency = 0.500
                 Dropdown.Size = UDim2.new(0, 260, 0, 38) -- 114
                 
@@ -612,7 +612,7 @@ function library:AddWindow(text,keybind)
                         TweenService:Create(
                         Item,
                         TweenInfo.new(0.4,Enum.EasingStyle.Back,Enum.EasingDirection.Out),
-                        {TextColor3 = Color3.fromRGB(255, 0, 0)}
+                        {TextColor3 = Color3.fromRGB(0, 0, 225)}
                     ):Play()
                         TweenService:Create(
                             Item,
@@ -779,7 +779,7 @@ function library:AddWindow(text,keybind)
 
                 Slider.Name = "Slider"
                 Slider.Parent = ScrollPage
-                Slider.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+                Slider.BackgroundColor3 = Color3.fromRGB(0, 0, 225)
                 Slider.BackgroundTransparency = 0.500
                 Slider.Size = UDim2.new(0, 260, 0, 48)
 
@@ -834,7 +834,7 @@ function library:AddWindow(text,keybind)
 
                 bar1.Name = "bar1"
                 bar1.Parent = bar
-                bar1.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+                bar1.BackgroundColor3 = Color3.fromRGB(0, 0, 225)
                 bar1.BackgroundTransparency = 0.500
                 bar1.Size = UDim2.new(set/max, 0, 0, 5)
 
@@ -857,7 +857,7 @@ function library:AddWindow(text,keybind)
 
                 slidervalue.Name = "slidervalue"
                 slidervalue.Parent = sliderr
-                slidervalue.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+                slidervalue.BackgroundColor3 = Color3.fromRGB(0, 0, 225)
                 slidervalue.BackgroundTransparency = 0.500
                 slidervalue.Position = UDim2.new(0, 185, 0, 5)
                 slidervalue.Size = UDim2.new(0, 65, 0, 18)
@@ -1014,7 +1014,7 @@ function library:AddWindow(text,keybind)
 
                 Textbox.Name = "Textbox"
                 Textbox.Parent = ScrollPage
-                Textbox.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+                Textbox.BackgroundColor3 = Color3.fromRGB(0, 0, 225)
                 Textbox.BackgroundTransparency = 0.500
                 Textbox.Size = UDim2.new(0, 260, 0, 38)
 
@@ -1040,7 +1040,7 @@ function library:AddWindow(text,keybind)
                 TextboxLabel.Text = text
                 TextboxLabel.Size = UDim2.new(0, 145, 0, 38)
                 TextboxLabel.Font = Enum.Font.GothamSemibold
-                TextboxLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+                TextboxLabel.TextColor3 = Color3.fromRGB(0, 0, 225)
                 TextboxLabel.TextSize = 16.000
                 TextboxLabel.TextTransparency = 0.500
                 TextboxLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -1141,7 +1141,7 @@ function library:AddWindow(text,keybind)
 
                 Toggle.Name = "Toggle"
                 Toggle.Parent = ScrollPage
-                Toggle.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+                Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 225)
                 Toggle.BackgroundTransparency = 0
                 Toggle.Size = UDim2.new(0, 260, 0, 38)
 
@@ -1177,7 +1177,7 @@ function library:AddWindow(text,keybind)
                 ToggleLabel.Size = UDim2.new(0, 258, 0, 36)
                 ToggleLabel.Font = Enum.Font.GothamSemibold
                 ToggleLabel.Text = text
-                ToggleLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+                ToggleLabel.TextColor3 = Color3.fromRGB(0, 0, 225)
                 ToggleLabel.TextSize = 16.000
                 ToggleLabel.TextTransparency = 0.500
                 ToggleLabel.TextXAlignment = Enum.TextXAlignment.Center
@@ -1193,7 +1193,7 @@ function library:AddWindow(text,keybind)
     
                 Circle.Name = "Circle"
                 Circle.Parent = ToggleImage
-                Circle.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+                Circle.BackgroundColor3 = Color3.fromRGB(0, 0, 225)
                 Circle.Position = UDim2.new(0, 2, 0, 2)
                 Circle.Size = UDim2.new(0, 16, 0, 16)
     
@@ -1260,17 +1260,17 @@ function library:AddWindow(text,keybind)
                     TweenService:Create(
                         Circle,
                         TweenInfo.new(0.4,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-                        {BackgroundColor3 = Color3.fromRGB(255, 0, 0)}
+                        {BackgroundColor3 = Color3.fromRGB(0, 0, 225)}
 				    ):Play()
                     TweenService:Create(
                         Toggle,
                         TweenInfo.new(0.4,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-                        {BackgroundColor3 = Color3.fromRGB(255, 0, 0)}
+                        {BackgroundColor3 = Color3.fromRGB(0, 0, 225)}
 				    ):Play()
                     TweenService:Create(
                         ToggleLabel,
                         TweenInfo.new(0.4,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-                        {TextColor3 = Color3.fromRGB(255, 0, 0)}
+                        {TextColor3 = Color3.fromRGB(0, 0, 225)}
                     ):Play()
                 end
 
@@ -1282,40 +1282,40 @@ function library:AddWindow(text,keybind)
                         TweenService:Create(
                         Circle,
                         TweenInfo.new(0.4,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-                        {BackgroundColor3 = Color3.fromRGB(255, 0, 0)}
+                        {BackgroundColor3 = Color3.fromRGB(0, 0, 225)}
 				    ):Play()
                         TweenService:Create(
                             Toggle,
                             TweenInfo.new(0.4,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-                            {BackgroundColor3 = Color3.fromRGB(255, 0, 0)}
+                            {BackgroundColor3 = Color3.fromRGB(0, 0, 225)}
 				        ):Play()
                         TweenService:Create(
                             ToggleLabel,
                             TweenInfo.new(0.4,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-                            {TextColor3 = Color3.fromRGB(255, 0, 0)}
+                            {TextColor3 = Color3.fromRGB(0, 0, 225)}
                         ):Play()
                     else
                         istoggled = false
                         TweenService:Create(
                         Circle,
                         TweenInfo.new(0.4,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-                        {BackgroundColor3 = Color3.fromRGB(255, 0, 0)}
+                        {BackgroundColor3 = Color3.fromRGB(0, 0, 225)}
 				    ):Play()
                         TweenService:Create(
                         Toggle,
                         TweenInfo.new(0.4,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-                        {BackgroundColor3 = Color3.fromRGB(255, 0, 0)}
+                        {BackgroundColor3 = Color3.fromRGB(0, 0, 225)}
 				    ):Play()
                         Circle:TweenPosition(UDim2.new(0,2,0,2),"Out","Sine",0.2,true)
                         TweenService:Create(
                             Toggle,
                             TweenInfo.new(0.4,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-                            {BackgroundColor3 = Color3.fromRGB(255, 0, 0)}
+                            {BackgroundColor3 = Color3.fromRGB(0, 0, 225)}
 				        ):Play()
                         TweenService:Create(
                             ToggleLabel,
                             TweenInfo.new(0.4,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-                            {TextColor3 = Color3.fromRGB(255, 0, 0)}
+                            {TextColor3 = Color3.fromRGB(0, 0, 225)}
                         ):Play()
                     end
                     pcall(callback,istoggled)
@@ -1366,7 +1366,7 @@ function buttonUIToggle(Image)
     ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
     ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
     ImageButton.Parent = ScreenGui
-    ImageButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+    ImageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 225)
     ImageButton.BorderSizePixel = 0
     ImageButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)--(0.120833337, 0, 0.0952890813, 0)
     ImageButton.Size = UDim2.new(0, 50, 0, 50)
@@ -1380,4 +1380,4 @@ function buttonUIToggle(Image)
 end
 -------------------------------------------------------------------
 buttonUIToggle("http://www.roblox.com/asset/?id=13018730049")
-local win = library:AddWindow("                                                                       NEMON HUB (NEW!!!) | Blox Fruits Update 19")
+local win = library:AddWindow("                                                                       Reviz HUB V.1.0 | By Iglis Use ")
