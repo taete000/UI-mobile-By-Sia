@@ -1380,4 +1380,4 @@ function buttonUIToggle(Image)
 end
 -------------------------------------------------------------------
 buttonUIToggle("http://www.roblox.com/asset/?id=13018730049")
-local win = library:AddWindow("                                               Reviz HUB V.1.0 | By Inglis Use ")
+local win = library:AddWindow("Reviz HUB V.1.0 | By Inglis Use ")
