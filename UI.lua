@@ -1206,7 +1206,7 @@ function library:AddWindow(text,keybind)
                 Tgim.Position = UDim2.new(0, 5, 0, 3)
                 Tgim.Rotation = 0
                 Tgim.Size = UDim2.new(0, 30, 0, 30)
-                Tgim.Image = 'http://www.roblox.com/asset/?id=11155842453'
+                Tgim.Image = ''
                 Tgim.ImageTransparency = 0
 
                 tglebtn.MouseEnter:Connect(function()
